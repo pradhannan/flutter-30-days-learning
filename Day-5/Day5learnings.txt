@@ -1,0 +1,36 @@
+
+
+# Day 5 – Flutter Architecture & Setup
+
+## Flutter Architecture Overview
+
+### 1. Framework Layer
+- Written in Dart
+- Contains widgets, rendering, animation and material/cupertino libraries
+- Used directly by developers
+
+### 2. Engine Layer
+- Written in C++
+- Responsible for rendering (Skia), text layout and plugin communication
+- Converts Dart UI into native graphics
+
+### 3. Embedded Layer
+- Platform specific (Android, iOS, Web, Desktop)
+- Handles input, platform messages and app lifecycle
+- Acts as a bridge between Flutter engine and the OS
+
+## Widgets in Flutter
+- Everything in Flutter is a widget
+- Widgets describe how the UI should look
+- Examples: StatelessWidget, StatefulWidget
+
+## Basic Architecture Concepts
+- Declarative UI
+- Widget tree
+- Build method
+- Hot reload
+
+## Flutter SDK Setup
+- Installed Flutter SDK
+- Set environment variables
+- Verified installation using `flutter doctor`
